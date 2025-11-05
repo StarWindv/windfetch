@@ -1,0 +1,12 @@
+# Directories
+.idea
+build
+dist
+pyfetch_server
+src/*/__pycache__/
+src/*.egg-info
+LogoBuilder
+
+
+# Files
+*.spec
