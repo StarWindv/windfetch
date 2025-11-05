@@ -16,7 +16,8 @@ classifiers = [
 ]
 dependencies = [
     "requests",
-    "stv_utils>=0.0.8"
+    "stv_utils>=0.0.8",
+    "psutil"
 ]
 urls = { "Homepage" = "https://github.com/StarWindv/pyfetch" }
 

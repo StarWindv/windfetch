@@ -20,7 +20,6 @@ class _Configer:
         "custom_logo_path": None,
         "logo_url": logo_url,
         "download_default_logo" : True,
-        "overwrite_default_logo": True,
         "load_customLogo_unsafe": False,
         "need_update_logo": False,
     }
