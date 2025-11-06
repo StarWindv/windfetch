@@ -255,7 +255,7 @@ class PyFetch:
     def _get_username_hostname():
         try:
             username = os.getlogin()
-        except FileNotFoundError:
+        except (FileNotFoundError, OSError):
             username = os.environ.get("USER", os.environ.get("USERNAME", "unknown"))
         hostname = socket.gethostname()
         return username, hostname
