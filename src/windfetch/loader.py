@@ -12,7 +12,7 @@ class _Configer:
     Base = os.path.expanduser("~/.windfetch")
     Config = os.path.join(Base, "config.json").replace("\\", "/")
     logo_path = os.path.join(Base, "logo.py").replace("\\", "/")
-    logo_url = "https://windfetch.starwindv.top/api/logo"
+    logo_url = "https://raw.githubusercontent.com/StarWindv/windfetch/refs/heads/main/ExampleLogos/logo.json"
     os.makedirs(Base, exist_ok=True)
 
     Default_Config = {
